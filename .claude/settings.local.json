@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(move:*)",
+      "Bash(mv:*)",
+      "Bash(start tetris.html)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd advanced Tetris game with floating obstacles\n\n- Complete HTML5 Canvas-based Tetris implementation\n- 50 progressive levels with exponential scoring\n- Floating obstacles system with 6 different patterns (bridge, islands, tunnel, scattered, zigzag, platform)\n- Explosion animations with balloon-pop effects and flashing\n- Enhanced sound effects for multi-line clears\n- Background music customization with file upload\n- Level transition screens and visual effects\n- Modern gradient UI with brain development theme\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh:*)",
+      "Bash(cp:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
